@@ -1,7 +1,0 @@
-D:\ExpenseTracker\ExpenseTrackerApp\obj\Debug\net8.0\ExpenseTrackerApp.GeneratedMSBuildEditorConfig.editorconfig
-D:\ExpenseTracker\ExpenseTrackerApp\obj\Debug\net8.0\ExpenseTrackerApp.AssemblyInfoInputs.cache
-D:\ExpenseTracker\ExpenseTrackerApp\obj\Debug\net8.0\ExpenseTrackerApp.AssemblyInfo.cs
-D:\ExpenseTracker\ExpenseTrackerApp\obj\Debug\net8.0\ExpenseTrackerApp.csproj.CoreCompileInputs.cache
-D:\ExpenseTracker\ExpenseTrackerApp\obj\Debug\net8.0\ExpenseTrackerApp.MvcApplicationPartsAssemblyInfo.cache
-D:\ExpenseTracker\ExpenseTrackerApp\obj\Debug\net8.0\ExpenseTrackerApp.RazorAssemblyInfo.cache
-D:\ExpenseTracker\ExpenseTrackerApp\obj\Debug\net8.0\ExpenseTrackerApp.RazorAssemblyInfo.cs
