@@ -1,4 +1,4 @@
-# 💰 Expense Tracker MVC Application
+# Expense Tracker MVC Application
 
 A simple ASP.NET Core MVC application to track daily expenses 📊.
 
