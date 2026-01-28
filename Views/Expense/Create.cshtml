@@ -1,0 +1,69 @@
+﻿@model ExpenseTracker.Models.Expense
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Add Expense</title>
+</head>
+
+<body style="margin:0; font-family:Segoe UI, Arial; background:#f4f6f8;">
+
+    <h2 style="text-align:center; margin-top:30px;">Add New Expense</h2>
+
+    <div style="display:flex; justify-content:center; margin-top:20px;">
+        <form method="post" style="
+            background:white;
+            padding:30px;
+            width:400px;
+            border-radius:10px;
+            box-shadow:0 4px 10px rgba(0,0,0,0.1);
+        ">
+
+            <label>Title</label><br />
+            <input name="Title" style="width:100%; padding:8px; margin-bottom:15px;" />
+
+            <label>Amount</label><br />
+            <input name="Amount" type="number" step="0.01"
+                   style="width:100%; padding:8px; margin-bottom:15px;" />
+
+            <label>Date</label><br />
+            <input name="Date" type="date"
+                   style="width:100%; padding:8px; margin-bottom:15px;" />
+
+            <label>Category</label><br />
+            <select name="CategoryId"
+                    style="width:100%; padding:8px; margin-bottom:20px;">
+                <option value="">-- Select Category --</option>
+                @foreach (var c in ViewBag.Categories)
+                {
+                    <option value="@c.CategoryId">@c.CategoryName</option>
+                }
+            </select>
+
+            <button type="submit" style="
+                width:100%;
+                padding:10px;
+                background:#27ae60;
+                color:white;
+                border:none;
+                border-radius:5px;
+                font-size:16px;
+            ">
+                Save Expense
+            </button>
+
+            <a href="/Expense" style="
+                display:block;
+                text-align:center;
+                margin-top:15px;
+                text-decoration:none;
+                color:#555;
+            ">
+                Back to List
+            </a>
+
+        </form>
+    </div>
+
+</body>
+</html>

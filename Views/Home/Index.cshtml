@@ -1,0 +1,41 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Expense Tracker</title>
+</head>
+
+<body style="margin:0; font-family:Segoe UI, Arial; background:#f4f6f8;">
+
+   
+    <div style="background:#2c3e50; padding:18px; color:white; text-align:center;">
+        <h1 style="margin:0;">Expense Tracker</h1>
+        <p style="margin:5px 0 0;">Track your daily expenses easily</p>
+    </div>
+
+    
+    <div style="background:#34495e; padding:12px; text-align:center;">
+        <a href="/" style="color:white; margin:0 15px; text-decoration:none;">Home</a>
+        <a href="/Expense" style="color:white; margin:0 15px; text-decoration:none;">Expenses</a>
+        <a href="/Expense/Create" style="color:white; margin:0 15px; text-decoration:none;">Add Expense</a>
+    </div>
+
+    
+    <div style="display:flex; justify-content:center; align-items:center; height:65vh;">
+        <div style="
+            background:white;
+            padding:40px;
+            width:350px;
+            text-align:center;
+            border-radius:10px;
+            box-shadow:0 4px 10px rgba(0,0,0,0.1);
+        ">
+            <h2 style="margin-bottom:15px;">Total Expenses</h2>
+
+            <div style="font-size:36px; color:#e74c3c; font-weight:bold;">
+                ₹ @ViewBag.TotalExpense
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
